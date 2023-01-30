@@ -122,7 +122,6 @@ a
 .pagination
 {
     display: flex;
-    border: 2px solid;
     align-items: center;
     justify-content: center;
     gap: 20px;
