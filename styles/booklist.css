@@ -119,6 +119,28 @@ a
     color: #FD630D;
 }
 
+.pagination
+{
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pagination-links
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.pagination-links > a:nth-child(1)
+{
+    color: #1B4CF9;
+}
+
 @media screen and (max-width: 1287px) 
 {
     section
@@ -127,6 +149,8 @@ a
         padding: 0;
         margin-top: 2rem;
     }
+
+
 
     .side-nav
     {
